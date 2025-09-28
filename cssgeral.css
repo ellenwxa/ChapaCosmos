@@ -1,0 +1,117 @@
+body {
+    background: linear-gradient(to top, #1e1a39, #482b70);
+    margin: auto;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.topo {
+    position: relative;
+    height: 80px;
+    padding: 20px;
+    background-image: url(estrela1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.topo2 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 85px;
+    padding: -30px;
+    background-image: url("estrela1.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nome {
+    color: #f5da93;
+    margin-left: 150px;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5PX;
+}
+
+.logo-projeto {
+    height: 120px;
+    width: 120px;
+    float: left;
+    margin-top: -22px;
+    margin-left: 11px;
+}
+
+.menu ul {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+
+
+.menu li {
+    background-color: #fae867;
+    padding: 10px 18px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(100, 90, 0, 0.15);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+
+.menu a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.menu li:hover {
+    background-color: #fff5a8;
+    transform: translateY(-2px);
+}
+
+
+.menu a:hover {
+    color: #ffe32b;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.assuntos {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.comuni {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cult {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.espor {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
